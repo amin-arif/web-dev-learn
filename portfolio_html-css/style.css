@@ -1,0 +1,143 @@
+ * {
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section {
+    margin: 40px 0;
+}
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 30px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+p {
+    text-align: justify;
+}
+.flexible-area {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+    padding: 0 10px;
+}
+.sec1 img {
+    width: 75%;
+}
+.content-center {
+    text-align: center;
+}
+.text-blue {
+    color:rgb(6, 90, 247);
+}
+.small-font {
+    font-size: small;
+}
+.link-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    background-image: linear-gradient(blue, rgb(7, 196, 221));
+    border-radius: 5px;
+}
+#title {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, rgb(49, 198, 218));
+    border-image-slice: 1;
+    padding-left: 15px;
+}
+#title h1 {
+    font-family: 'Rubik', sans-serif;
+}
+.sec2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    width: 300px;
+    height: 340px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.card img, h3, p {
+    background-color: inherit;
+}
+.card img {
+    width: 55%;
+}
+#card1 {
+    background-color:rgb(203, 255, 238)
+}
+#card2 {
+    background-color: rgb(255, 243, 228);
+}
+#card3 {
+    background-color:rgb(201, 225, 247);
+}
+.sec3 img, .sec4 img {
+    width: 60%;
+}
+.sec3 div:first-child {
+    background-image: url(images/shapes/shape-blue.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: 40px 55px;
+}
+.sec4 {
+    height: 400px;
+}
+#back-img {
+    background-image: url(images/shapes/shape-light-blue.png);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    background-position: 340px 220px;
+}
+#footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    background-color: black;
+    padding: 10px 0;
+}
+#footer h2, span {
+    background-color: inherit;
+}
+#footer h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-white {
+    color: white;
+}
+#skill-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 70%;
+}
+#skill-logo img{
+    padding: 5px;
+    box-shadow: 0 0 20px rgb(60 72 88 / 15%);
+    border-radius: 5px;
+    width: 90px;
+    height: auto;
+}
+.skill-box {
+    padding: 15px;
+    background-color: aliceblue;
+    box-shadow: 20px 20px 65px rgba(165, 146, 146, .3);
+    width: 230px;
+}
+.skill-box h4, small {
+    background-color: inherit;
+    line-height: 10px;
+}
