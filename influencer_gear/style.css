@@ -16,18 +16,27 @@ h1 {
     font-weight: 700;
     line-height: 55px;
 }
+h3 {
+    font-size: 28px;
+}
 hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-.link-btn {
+.btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700px;
+}
+.big-btn {
     background-color: rgb(199, 33, 67);
     color: white;
-    text-decoration: none;
-    font-weight: 700px;
     padding: 8px 12px;
-    border-radius: 20px;
+    border-radius: 40px;
+}
+.small-btn {
+    color: rgb(199, 33, 67);
 }
 .display-flex {
     display: flex;
@@ -60,7 +69,7 @@ main {
     margin: 0 auto;
 }
 .section {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .influence-promo {
     display: flex;
@@ -85,16 +94,59 @@ main {
 .company-logo img {
     padding: 20px;
 }
-.sec-middle {
-    width: 80%;
-    margin: auto;
-    margin-top: 60px;
+
+/*--- Product Section ---*/
+.sec-product {
+    margin-top: 70px;
 }
-.sec-middle h2 {
+.sec-product h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.products {
+    margin: 0 auto;
+    width: 86%; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
     text-align: center;
 }
-
-
+.product {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    width: 285px;
+    height: auto;
+}
+.product-info {
+    text-align: left;
+}
+.product-img {
+    border-radius: 5px;
+    width: 282px;
+    height: 250px;
+}
+.product-price {
+    font-size: 25px;
+}
+.product-details {
+    font-size: 14px;
+    color: #5E6366;
+    font-weight: bold;
+}
+.rating-icon {
+    color: orange;
+}
+.rating-number {
+    margin-left: 8px;
+}
+#more-btn {
+    margin: 0 auto;
+    width: 86%; 
+    margin-top: 20px;
+    text-align: right;
+}
 
 /*---------------------------------
     Footer styles
